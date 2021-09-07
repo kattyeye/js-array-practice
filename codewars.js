@@ -26,7 +26,13 @@ const arr = N => {
 // https://www.codewars.com/kata/58356a94f8358058f30004b5/train/javascript
 //don't worry about character limit
 
-
+function flyBy(lamps, drone){
+    if (drone.length > lamps.length){
+      return 'o'.repeat(lamps.length);
+    }else {
+      return 'o'.repeat(drone.length) + 'x'.repeat(lamps.length - drone.length);
+    }
+    }
 
 // # 4
 // Get the mean of an array
