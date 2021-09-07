@@ -24,7 +24,7 @@ const arr = N => {
 // # 3
 // Drone Fly-By
 // https://www.codewars.com/kata/58356a94f8358058f30004b5/train/javascript
-//don't worry about character limit
+
 
 function flyBy(lamps, drone){
     if (drone.length > lamps.length){
@@ -38,9 +38,18 @@ function flyBy(lamps, drone){
 // Get the mean of an array
 // https://www.codewars.com/kata/563e320cee5dddcf77000158/train/javascript
 
+function getAverage(marks){
 
-
+    let total = 0;
+      
+      for(i = 0; i < marks.length; i++) {
+        total = total + marks[i];
+      }
+      return Math.floor(total / marks.length);
+      
+    }
 
 // #5
 // THE SOUL OF WIT: REVERSE AN ARRAY
 // https://www.codewars.com/kata/59b81886460387d8fc000043
+//don't worry about character limit
