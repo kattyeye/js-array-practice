@@ -2,14 +2,23 @@
 // Testing 1-2-3
 // https://www.codewars.com/kata/54bf85e3d5b56c7a05000cf9/train/javascript
 
-
+var number=function(array){
+    return array.map((line, index) => `${index + 1}: ${line}`);
+  }
 
 
 // # 2
 // Filling an array (part 1)
 // https://www.codewars.com/kata/571d42206414b103dc0006a1/train/javascript
 
-
+const arr = N => {
+    const arr = [];
+      
+      for(let i = 0; i < N; i += 1){
+        arr.push(i);
+      }
+      return arr;
+    }
 
 
 // # 3
