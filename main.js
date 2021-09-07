@@ -5,9 +5,14 @@
 
 // Put your answer below -------------------------
 
-
-
-
+'use strict';
+function createNewArray(str, int) {
+    let newArr = new Array();
+    for (i = 0; i<newArr.length; i++){
+        newArr.length = int;
+        newArr = srt;
+    }
+}
 
 
 
@@ -23,8 +28,11 @@
 
 // Put your answer below -------------------------
 
-
-
+let array = [];
+function cheeseBallz(arr) {
+let newArray;
+arr.reverse()= newArray;
+}
 
 
 
@@ -40,8 +48,10 @@
 
 // Put your answer below -------------------------
 
+let arr = [];
+const falsyVals = ['NaN', 'false','','0','undefined', 'null']
 
-
+let newArr = falsyVals.filter(Boolean);
 
 
 
