@@ -49,10 +49,10 @@ arr.reverse()= newArray;
 // Put your answer below -------------------------
 
 let arr = [];
-const falsyVals = ['NaN', 'false','','0','undefined', 'null']
+const falsyVals = [NaN, false,'',0, undefined, null]
 
 let newArr = falsyVals.filter(Boolean);
-
+console.log(newArr) //returns [] because all are falsy
 
 
 
@@ -70,7 +70,11 @@ let newArr = falsyVals.filter(Boolean);
 // Put your answer below -------------------------
 
 
+const nestedArray = [[]];
 
+function arrays(nestedArray) {
+
+}
 
 
 
@@ -90,6 +94,7 @@ let newArr = falsyVals.filter(Boolean);
 
 
 
+const uniqueNumbers = [...new Set(array)];
 
 
 
@@ -108,9 +113,16 @@ let newArr = falsyVals.filter(Boolean);
 
 // Put your answer below -------------------------
 
+let arr1 = [];
+let arr2 = [];
 
-
-
+let dosArrays = function(arr1, arr2){
+if (arr1 === arr2){
+    return true;
+} else{
+    return false;
+}
+}
 
 
 
