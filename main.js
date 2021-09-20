@@ -70,10 +70,10 @@ console.log(newArr) //returns [] because all are falsy
 // Put your answer below -------------------------
 
 
-const nestedArray = [[]];
 
 function arrays(nestedArray) {
-
+    myNew = Object.fromEntries(nestedArray);
+    return myNew;
 }
 
 
